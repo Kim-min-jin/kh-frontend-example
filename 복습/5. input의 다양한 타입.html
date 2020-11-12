@@ -1,0 +1,41 @@
+<!--
+    input의 다양한 타입
+1. <input type="text"> : text만 입력할 수 있음
+2. <input type="password" : 비밀번호 노출을 막기 위해 기호로 표시
+3. <input type="email"> : 이메일 형식만 입력할 수 있음
+4. <input type="hidden"> : 웹페이지에는 노출되지 않음
+5. <input type="radio"> : 선택버튼. 중복도 가능
+6. <input type="file"> : 파일 업로드
+7. <input type="button"> : 버튼 ui 생성. 자바스크립트와 함께 쓰임
+8. <input type="reset"> : 입력된 값들을 무효화시킴
+9. <input type="range"> : 범위 슬라이드 min, max값을 넣어줄 수 있음
+10. <input type="color"> : 색상 선택할 수 있는 RGB
+11. <input type="submit"> : 전송버튼 value로 이름 변경 가능
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>20201110</title>
+</head>
+<!-- body -->
+
+<body>
+    <form>
+        <label><input type="text" />텍스트상자</label><br />
+        <label><input type="password" />패스워드상자</label><br />
+        <label><input type="email" />이메일상자</label><br />
+        <label><input type="hidden" />숨김</label><br />
+        <label><input type="radio" name="g1" />라디오1</label><br />
+        <label><input type="radio" name="g1" />라디오2</label><br />
+        <label><input type="radio" name="g1" />라디오3</label><br />
+        <label><input type="file" />파일선택</label><br />
+        <label><input type="button" value="버튼제목" />버튼</label><br />
+        <label><input type="reset" />무효화</label><br />
+        <label><input type="range" />범위슬라이드</label><br />
+        <label><input type="color" />색상선택</label><br />
+        <input type="submit" value="눌러">
+    </form>
+</body>
+
+</html>

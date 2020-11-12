@@ -1,0 +1,29 @@
+<!--
+1. <ul> : unordered list 정리되지 않은 목록
+2. <ol> : ordered list 정리된 목록 숫자순서대로
+3. <label> : 텍스트의 이름표
+        무엇의 이름표인지 표시하기 위해서 <label for="id_txt">사용
+                                       <input id="id_txt">이처럼 연결시킬 수 있음
+4. <input type="radio"> 선택가능한 원형 버튼 (홈페이지 가입시 관심분야 선택할 때 주로 등장)
+5. <input type="radio" name="i1">과 name="i2" 다른 두가지 부류로 중복선택 가능
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>20201110</title>
+</head>
+<!-- body -->
+
+<body>
+    <ul>
+        <!--unordered list (정리되지 않은) 목록 -->
+        <li><label><input type="radio" name="i1" />테스트1</label></li>
+        <!--type="radio" 선택 가능한 동그라미 버튼-->
+        <li><label><input type="radio" name="i1" />테스트2</label></li>
+        <li><label><input type="radio" name="i2" />테스트3</label></li>
+        <!--name="i1" 과 name="i2" 같은 부류는 한가지만 선택 가능. 다른 부류는 두가지 선택가능-->
+    </ul>
+</body>
+
+</html>
