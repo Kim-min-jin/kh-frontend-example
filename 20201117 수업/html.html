@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dd</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">    
+        <style>
+            *, *::before, *::after {
+                box-sizing: border-box;
+            }
+
+            html, body {
+                margin: 0;
+                font-family: 'Noto Sans KR', sans-serif;
+                line-height: 1.6;
+            }
+
+            .hero {
+                background-image: 
+                    url('https://github.com/hyeyoom/kh-lecture-2020/blob/master/layout/img/bg.jpeg?raw=true'),
+                    radial-gradient(#ccc, #111);
+                background-repeat: no-repeat;
+                background-blend-mode: multiply;
+                background-position: center center;
+                height: 100vh;
+                color: white;
+                padding-top: 35rem;
+            }
+
+            h1, p, blockquote {
+                margin: 0;
+            }
+
+            .container {
+                width: 85%;
+                margin: 0 auto;
+                max-width: 65em;
+            }
+
+            .primary-title {
+                font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem)
+            }
+
+            .article-spacing {
+                margin-top: 5rem;
+                width: 40%;
+            }
+
+            .article-spacing > h1 {
+                font-size: 2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .article-spacing > p, blockquote {
+                font-size: 1.3rem;
+                text-indent: 1rem;
+                margin-bottom: 2.4rem;
+            }
+
+            .article-spacing > blockquote {
+                padding-left: 2rem;
+                border-left: 5px solid black;
+            }
+
+            .image-box {
+                margin-bottom: 1.2rem;
+                text-align: center;
+            }
+
+            .image-box > p {
+                font-size: 1.2rem;
+                color: #555555;
+            }
+
+            .image-box > img {
+                cursor: pointer;
+                width: 85%;
+                display: block;
+                margin: 0 auto;
+            }
+
+            footer {
+                background-color: rgba(0, 0, 0, 0.9);
+                color: white;
+                padding: 5rem 0;
+            }
+
+            .footer-container {
+                width: 60%;
+                margin: 0 auto;
+            }
+
+            .info-container {
+                display: flex;
+                background-color: salmon;
+                border-bottom: 2px solid white;
+                padding-bottom: 5rem;
+            }
+
+            .info-item {
+                flex: 1 1 0;
+                padding: 1%;
+            }
+
+            .info-container > h2 {
+                font-size: 1rem;
+                margin: 0;
+                
+                
+            }
+
+            .info-item > p {
+                font-size: 0.7rem;
+                margin: 0;
+                margin-bottom: 1rem;
+            }
+
+            .flex-container {
+                display: flex;
+                width: 100vw;
+                height: 300px;
+                background-color: beige;
+                justify-content: space-between;
+            }
+
+            .logo-container > p {
+                font-size: 0.8rem;
+            }
+
+            .logo-container {
+                margin-top: 3rem;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .menu-box {
+                display: flex;
+            }
+
+            .menu-box > h4 {
+                font-weight: 300;
+                padding: 0 0.7rem;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header class="hero">
+            <div class="container">
+                <h1 class="primary-title">제목</h1>
+                <p>제목</p>
+                <p>dfafd</p>
+            </div>
+        </header>
+        <main>
+            <article>
+                <div class="container article-spacing">
+                    <h1>제목이여1</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, explicabo perferendis quasi porro adipisci, tenetur assumenda facilis a recusandae quaerat voluptate consequatur expedita veniam numquam laborum. Optio rerum in labore!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, explicabo perferendis quasi porro adipisci, tenetur assumenda facilis a recusandae quaerat voluptate consequatur expedita veniam numquam laborum. Optio rerum in labore!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, explicabo perferendis quasi porro adipisci, tenetur assumenda facilis a recusandae quaerat voluptate consequatur expedita veniam numquam laborum. Optio rerum in labore!</p>
+                            <blockquote>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, explicabo perferendis quasi porro adipisci, tenetur assumenda facilis a recusandae quaerat voluptate consequatur expedita veniam numquam laborum. Optio rerum in labore!</p>
+                            </blockquote>
+                    <h1>제목2</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, explicabo perferendis quasi porro adipisci, tenetur assumenda facilis a recusandae quaerat voluptate consequatur expedita veniam numquam laborum. Optio rerum in labore!</p>
+                            <div class="image-box">
+                                <img src="https://static.dw.com/image/49202627_303.jpg
+                                ">
+                                <p>냠먄먄ㅁ</p>
+
+                            </div>
+                </article>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="info-container">
+                    <div class="info-item">
+                        <h2>Learn more.</h2>
+                        <p>Medium is an open platform where 170 million readers come to find insightful and dynamic thinking. Here, expert and undiscovered voices alike dive into the heart of any topic and bring new ideas to the surface. Learn more</p>
+                    </div>
+                    <div class="info-item">
+                        <h2>Learn more.</h2>
+                        <p>Medium is an open platform where 170 million readers come to find insightful and dynamic thinking. Here, expert and undiscovered voices alike dive into the heart of any topic and bring new ideas to the surface. Learn more</p>
+                    </div>
+                    <div class="info-item">
+                        <h2>Learn more.</h2>
+                        <p>Medium is an open platform where 170 million readers come to find insightful and dynamic thinking. Here, expert and undiscovered voices alike dive into the heart of any topic and bring new ideas to the surface. Learn more</p>
+                    </div>
+                </div>
+                <div class="logo-container">
+                    <div class="logo-box">
+                        <h1>로고로고</h1>
+                    </div>
+                    <div class="menu-box">
+                        <h4>About</h4>
+                        <h4>Help</h4>
+                        <h4>Legal</h4>
+                    </div>
+                </div>
+                </div>        
+        </footer>
+
+    </body>
+</html>
